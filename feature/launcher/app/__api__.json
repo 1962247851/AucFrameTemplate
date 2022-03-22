@@ -1,0 +1,7 @@
+{
+  "ApiUtilsClass": "com.blankj.utilcode.util.ApiUtils",
+  "implApis": {
+    "tech/ordinaryroad/ioe/android/feature1/export/api/Feature1Api": "{ implApiClass: tech/ordinaryroad/ioe/android/feature1/pkg/Feature1ApiImpl, isMock: false }"
+  },
+  "noImplApis": []
+}

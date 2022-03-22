@@ -1,0 +1,9 @@
+{
+  "BusUtilsClass": "com.blankj.utilcode.util.BusUtils",
+  "rightBus": {
+    "feature0_show_toast": [
+      "{ desc: tech.ordinaryroad.ioe.android.feature0.pkg.main.Feature0Activity#showToast(java.lang.String msg) }"
+    ]
+  },
+  "wrongBus": {}
+}

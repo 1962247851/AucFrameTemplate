@@ -1,16 +1,16 @@
 class Config {
 
-    static applicationId = 'tech.ordinaryroad.android'
-    static appName = 'OrdinaryRoadAucFrameTemplate'
+    static applicationId = 'tech.ordinaryroad.android' // TODO applicationId
+    static appName = 'OrdinaryRoadAucFrameTemplate' // TODO appName
 
-    static compileSdkVersion = 30
-    static minSdkVersion = 23
-    static targetSdkVersion = 30
-    static versionCode = 1
-    static versionName = '1.0.0'// E.g. 1.9.72 => 1,009,072
+    static compileSdkVersion = 30 // TODO compileSdkVersion
+    static minSdkVersion = 23 // TODO minSdkVersion
+    static targetSdkVersion = 30 // TODO targetSdkVersion
+    static versionCode = 1 // TODO versionCode
+    static versionName = '1.0.0'// E.g. 1.9.72 => 1,009,072 // TODO versionName
 
-    static gradlePluginVersion = '7.0.4'
-    static kotlinVersion = '1.6.10'
+    static gradlePluginVersion = '7.0.4' // TODO gradlePluginVersion
+    static kotlinVersion = '1.6.10' // TODO kotlinVersion
 
     static depConfig = [
             /*Never delete this line*/
@@ -34,6 +34,7 @@ class Config {
             plugin_api             : new DepConfig(pluginPath: "com.blankj:api-gradle-plugin:1.2", pluginId: "com.blankj.api"),
             plugin_bus             : new DepConfig(pluginPath: "com.blankj:bus-gradle-plugin:2.4", pluginId: "com.blankj.bus"),
 
+            // TODO 依赖
             appcompat              : new DepConfig("androidx.appcompat:appcompat:1.3.0"),
             material               : new DepConfig("com.google.android.material:material:1.3.0"),
             constraintlayout       : new DepConfig("androidx.constraintlayout:constraintlayout:2.0.4"),

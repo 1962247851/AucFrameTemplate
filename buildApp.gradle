@@ -1,13 +1,6 @@
 apply {
     plugin "com.android.application"
     plugin "kotlin-android"
-    // TODO 改为
-    //  android {
-    //    buildFeatures {
-    //      viewBinding true
-    //    }
-    // }
-    plugin "kotlin-android-extensions"
     plugin Config.depConfig.plugin_api.pluginId
     plugin Config.depConfig.plugin_bus.pluginId
 }
@@ -38,15 +31,16 @@ android {
         }
     }
 
-    packagingOptions {
-        exclude 'META-INF/*'
+    buildFeatures {
+        viewBinding true
     }
 
-    dexOptions {
-        preDexLibraries true
-        javaMaxHeapSize "8g"
-        maxProcessCount 8
-        dexInProcess = true
+    dataBinding {
+        enabled = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/*'
     }
 }
 

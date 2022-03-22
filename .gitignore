@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+*.phrof
+__api__.json
+__bus__.json
+/apk

@@ -1,0 +1,6 @@
+dependencies {
+    api Config.depConfig.free_proguard.dep
+
+    api Config.depConfig.retrofit.dep
+    api Config.depConfig.retrofit_converter_gson.dep
+}

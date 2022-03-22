@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/WindowBackgroundColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_clear_user_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="@string/clear"
+            android:textAlignment="center"
+            android:textAppearance="@style/MainTextAppearance"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/WindowBackgroundColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_select_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="@string/select_picture_from_device"
+            android:textAlignment="center"
+            android:textAppearance="@style/MainTextAppearance"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/WindowBackgroundColor">
+
+        <TextView
+            android:id="@+id/text_view_hide_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="@android:string/cancel"
+            android:textAlignment="center"
+            android:textAppearance="@style/SecondTextAppearance"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

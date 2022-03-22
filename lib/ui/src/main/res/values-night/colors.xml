@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="WindowBackgroundColor">#303030</color>
+    <color name="WindowBackgroundColorReserve">#FAFAFA</color>
+    <color name="colorUnSelect">#AAAAAA</color>
+    <color name="colorSelect">#FFFFFF</color>
+</resources>

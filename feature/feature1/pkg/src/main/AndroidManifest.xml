@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tech.ordinaryroad.ioe.android.feature1.pkg">
+    package="tech.ordinaryroad.android.feature1.pkg">
 
     <application>
         <activity
-            android:name=".main.Feature1Activity"
+            android:name="tech.ordinaryroad.android.feature1.pkg.main.Feature1Activity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="user"
             android:windowSoftInputMode="stateHidden" />

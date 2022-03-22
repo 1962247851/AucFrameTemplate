@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="file_save_successfully">文件保存成功</string>
+    <string name="file_save_failed">文件保存失败</string>
+    <string name="copy_to_clipboard" >%s 已复制到剪切板</string>
+</resources>

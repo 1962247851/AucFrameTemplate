@@ -1,0 +1,41 @@
+dependencies {
+    api Config.depConfig.lib_photoview.dep
+    api Config.depConfig.lib_util.dep
+
+    api Config.depConfig.core_ktx.dep
+    api Config.depConfig.appcompat.dep
+    api Config.depConfig.material.dep
+    api Config.depConfig.constraintlayout.dep
+    api Config.depConfig.lifecycle_livedata_ktx.dep
+    api Config.depConfig.lifecycle_viewmodel_ktx.dep
+    api Config.depConfig.lifecycle_viewmodel_savedstate.dep
+    api Config.depConfig.navigation_fragment_ktx.dep
+    api Config.depConfig.navigation_ui_ktx.dep
+    api Config.depConfig.preference_ktx.dep
+    api Config.depConfig.viewpager2.dep
+    api Config.depConfig.recyclerview.dep
+
+    api Config.depConfig.extextview.dep
+    api Config.depConfig.vertical_tab_layout.dep
+    api Config.depConfig.badgeview.dep
+    api Config.depConfig.taptargetview.dep
+    api Config.depConfig.zxing_core.dep
+    api Config.depConfig.bga_qrcodecore.dep
+    api Config.depConfig.bga_zxing.dep
+    api Config.depConfig.biometric_prompt.dep
+    api Config.depConfig.circleimageview.dep
+    api Config.depConfig.ticker.dep
+    api Config.depConfig.refresh_layout_kernel.dep
+    api Config.depConfig.refresh_header_material.dep
+    api Config.depConfig.refresh_footer_classics.dep
+    api Config.depConfig.toasty.dep
+    api Config.depConfig.brvah.dep
+    api Config.depConfig.banner.dep
+    api Config.depConfig.material_dialogs_core.dep
+    api Config.depConfig.material_dialogs_lifecycle.dep
+    api Config.depConfig.material_dialogs_input.dep
+    api Config.depConfig.material_dialogs_datetime.dep
+    api Config.depConfig.material_dialogs_bottomsheets.dep
+    api Config.depConfig.panel_switch_helper.dep
+    api Config.depConfig.subsampling_scale_image_view.dep
+}

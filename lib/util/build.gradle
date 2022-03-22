@@ -1,0 +1,6 @@
+dependencies {
+    api Config.depConfig.lib_api.dep
+
+    api Config.depConfig.utilcodex.dep
+    api Config.depConfig.free_proguard.dep
+}

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tech.ordinaryroad.ioe.android.launcher.app">
+    package="tech.ordinaryroad.android.launcher.app">
 
     <application
-        android:name="tech.ordinaryroad.ioe.android.launcher.app.LauncherApp"
-        android:allowBackup="false"
+        android:name=".LauncherApp"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name="tech.ordinaryroad.ioe.android.feature0.pkg.main.Feature0Activity">
+        <activity android:name="tech.ordinaryroad.android.feature0.pkg.main.Feature0Activity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />

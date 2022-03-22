@@ -15,16 +15,26 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/feature0" />
+            <option value="$PROJECT_DIR$/feature/feature0/app" />
             <option value="$PROJECT_DIR$/feature/feature0/export" />
             <option value="$PROJECT_DIR$/feature/feature0/pkg" />
             <option value="$PROJECT_DIR$/feature/feature1" />
+            <option value="$PROJECT_DIR$/feature/feature1/app" />
             <option value="$PROJECT_DIR$/feature/feature1/export" />
             <option value="$PROJECT_DIR$/feature/feature1/pkg" />
             <option value="$PROJECT_DIR$/feature/launcher" />
             <option value="$PROJECT_DIR$/feature/launcher/app" />
+            <option value="$PROJECT_DIR$/feature/template" />
+            <option value="$PROJECT_DIR$/feature/template/app" />
+            <option value="$PROJECT_DIR$/feature/template/export" />
+            <option value="$PROJECT_DIR$/feature/template/pkg" />
             <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/lib/api" />
             <option value="$PROJECT_DIR$/lib/base" />
             <option value="$PROJECT_DIR$/lib/common" />
+            <option value="$PROJECT_DIR$/lib/photoview" />
+            <option value="$PROJECT_DIR$/lib/ui" />
+            <option value="$PROJECT_DIR$/lib/util" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainTextAppearance" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SecondTextAppearance" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+</resources>
